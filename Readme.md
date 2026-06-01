@@ -41,10 +41,15 @@ JavaScript
 
 ---
 ## Dashboard
-<img width="1871" height="796" alt="Screenshot 2025-07-19 161031" src="https://github.com/user-attachments/assets/5ba30153-2589-4fa0-81da-c0c82352e14f" />
 <img width="1882" height="876" alt="Screenshot 2025-07-19 163128" src="https://github.com/user-attachments/assets/b14827c4-e305-4d85-8133-d0048e5b44f7" />
+
+ ---
 <img width="1563" height="703" alt="Screenshot 2025-07-19 164738" src="https://github.com/user-attachments/assets/9b9a37b5-0914-4604-9b14-04cdcf94729c" />
+
+---
 <img width="1877" height="642" alt="Screenshot 2025-07-19 192140" src="https://github.com/user-attachments/assets/e2ea76c4-3286-47e7-92c6-3f7da2613f3f" />
+
+---
 <img width="1888" height="858" alt="Screenshot 2025-07-19 192450" src="https://github.com/user-attachments/assets/72d8b025-d65e-47ad-adb7-55d075c097dd" />
 <img width="1879" height="846" alt="Screenshot 2025-07-19 193404" src="https://github.com/user-attachments/assets/77aa0df6-106a-4a35-a587-773233cc5d0c" />
 <img width="1894" height="866" alt="Screenshot 2025-07-19 193820" src="https://github.com/user-attachments/assets/3a57f993-a156-4efc-9a36-29f0ae32e398" />
