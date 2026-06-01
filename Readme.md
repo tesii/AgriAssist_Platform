@@ -26,8 +26,13 @@ JavaScript
 ---
 ## LIVE DEMO
 
+
+## PART 1
 https://www.youtube.com/watch?v=m8DGKjZ02UE
 ---
+
+## PART2
+https://www.youtube.com/watch?v=sm4nNZ2Ve-k
 
 
 
