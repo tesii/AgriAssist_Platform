@@ -1,21 +1,24 @@
-name: Deploy to GitHub Pages
+name: PHP CI
 
 on:
   push:
     branches: [ main ]
 
-permissions:
-  contents: write
-
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v4
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          php-version: '8.2'
+
+      - name: Check PHP version
+        run: php -v
+
+      - name: Run lint
+        run: php -l index.php
