@@ -1,24 +1,21 @@
-name: Node.js CI
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [ main ]
 
+permissions:
+  contents: write
+
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run tests
-        run: npm test
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
