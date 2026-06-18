@@ -18,9 +18,13 @@ AgriAssist is an AI-powered agricultural support platform designed to help farme
 ## 🛠️ Technologies Used
 
 PHP
+
 MySQL
+
 HTML5
+
 CSS3
+
 JavaScript
 
 ---
